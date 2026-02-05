@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+
+.title {
+    font-family: 'EB Garamond';
+    text-decoration: none; 
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 1000;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: whitesmoke;
+    transition: width 0.3s ease;
+}
+
+.title:hover::after {
+    width: 100%;
+}
+
+.nz{
+    font-family: 'EB Garamond';
+    font-size: 75px;
+    color: #F5FFFA;
+    font-weight: 1000;
+    text-align: center;
+    margin: 250px;
+}
+
+.ab{
+    font-family: 'EB Garamond';
+    font-size: 75px;
+    color: #F5FFFA;
+    font-weight: 1000;
+    text-align: center;
+    margin: 250px;
+}
+
+.fo{
+    font-family: 'EB Garamond';
+    font-size: 75px;
+    color: #F5FFFA;
+    font-weight: 1000;
+    text-align: center;
+    margin: 250px;
+}
+
+.cu{
+    font-family: 'EB Garamond';
+    font-size: 75px;
+    color: #F5FFFA;
+    font-weight: 1000;
+    text-align: center;
+    margin: 250px;
+}
+
+.de{
+    font-family: 'EB Garamond';
+    font-size: 75px;
+    color: #F5FFFA;
+    font-weight: 1000;
+    text-align: center;
+    margin: 250px;
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none; 
+    color: whitesmoke;
+    font-weight: 500;
+    margin-left: 20px;
+    position: relative;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;  
+    width: 0;
+    height: 2px;
+    background-color: whitesmoke;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+
+.nzmap{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    margin-top: 500px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 800px;
+}
+
+.nzmapword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+
+.cathedralcove{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.cathedral{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.cathedralword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.franzjosefglacier{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.franz{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.franzword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+
+.queenstown{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.queens{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.queensword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.canterburymuseum{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.canter{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.canterword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+
+.fiordlandnationalpark{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.fiord{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.fiordword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.pavlova{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.pav{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.pavlovaword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.pauaabalone{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.paua{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.pauaword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+
+.kina{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 210px;
+}
+
+.kin{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.kinaword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.cheeseroll{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.cheese{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.cheeseword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+
+.whitebait{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.white{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.whiteword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.haka{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.hak{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.hakaword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.hangi{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.han{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    height: 400px;
+    width: 600px;
+
+}
+
+.hanword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+
+.communication{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 210px;
+}
+
+.commu{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.commuword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.wharewhakairo{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.whare{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.whareword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-right: 40px;
+    color: whitesmoke;
+}
+
+.music{
+    font-family: 'EB Garamond';
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.mus{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+.musicword{
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    text-justify: auto;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
